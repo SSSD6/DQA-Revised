@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Abhaya+Libre&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url("/assets/images/hero.png");
+  background-position: top center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Bree Serif", serif;
+  color: #f2f1da;
+}
+
+.banner-content {
+  padding: 10% 5%;
+  line-height: 40px;
+}
+
+.banner-content h1 {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: #f2f1da;
+  word-spacing: 12px;
+}
+
+.banner-content p {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 30px;
+  color: #f2f1da;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: white;
+}
+
+.footer {
+  background-color: #024126;
+  padding: 2rem 2rem;
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+
+i {
+  padding: 0 1rem;
+}
+
+.footer2 {
+  color: white;
+  font-family: "Abel", sans-serif;
+  background-color: #024126;
+  opacity: 0.9;
+  padding: 0.5rem;
+}
+
+.newsletter {
+  background-color: #e6f2e7;
+}
+
+.newsletter h4 {
+  color: #024126;
+  font-family: "Abhaya Libre";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.newsletter p {
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  line-height: 140.4%;
+  color: #024126;
+}
+
+.btnAddon {
+  background-color: #024126;
+  border-radius: 8px;
+  font-family: "Abel", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.news {
+  border-radius: 40px 0px 0px 40px;
+}
+
+.news h4 {
+  color: #024126;
+  font-family: "Abhaya Libre";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.news h5 {
+  color: #024126;
+  font-family: "Abhaya Libre";
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.news p {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140.4%;
+  color: #333333;
+}
+
+.newsCard {
+  background-color: #e6f2e7;
+}
+
+.login h2 {
+  color: #024126;
+  font-family: "Abhaya Libre";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.loginCards h4 {
+  font-family: "Abhaya Libre";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #07452a;
+}
+
+.loginCards h6 {
+  font-family: "Abel", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #024126;
+  opacity: 0.7;
+}
+
+.loginCards a {
+  font-family: "Abel", sans-serif;
+}
+
+.btn-primary {
+  background-color: #024126;
+  border-radius: 0;
+  outline: 0;
+}
+
+.loginCards i {
+  color: #c5be5b;
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .banner-content {
+    padding: 40% 5%;
+    line-height: 40px;
+  }
+
+  .banner-content h1 {
+    font-family: "Abhaya Libre";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 65%;
+    color: #f2f1da;
+    word-spacing: 12px;
+  }
+
+  .banner-content p {
+    font-family: "Abel", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #f2f1da;
+  }
+}
+
+.loginCardDeck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.contentColumn {
+  color: white;
+  font-family: "Abel", sans-serif;
+}
+
+.contentColumn h4,
+.contentColumn h5 {
+  font-family: "Abhaya Libre";
+}
+
+.btn-primary {
+  outline: none;
+  border: none;
+  padding: 4px 8px !important;
+}
