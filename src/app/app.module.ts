@@ -5,18 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { AdminModule } from './admin/admin.module';
+import { RouterModule, Routes } from '@angular/router';
+import {AuthenticationModule} from './authentication/authentication.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LandingComponent
+    AppComponent, 
+    LandingComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AdminModule,
+    AuthenticationModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
